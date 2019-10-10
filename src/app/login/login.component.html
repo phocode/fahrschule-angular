@@ -1,1 +1,22 @@
-<p>login works!</p>
+<div class="fs-login">
+  <h1>
+    Login
+  </h1>
+
+  <mat-form-field>
+    <input matInput placeholder="Email address">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'">
+      <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+  </mat-form-field>
+
+  <div class="fs-login-btn-container">
+    <button class="fs-login-btn" mat-raised-button color="primary">Login</button>
+
+    <button class="fs-login-btn" mat-raised-button color="primary">Register</button>
+  </div>
+</div>
