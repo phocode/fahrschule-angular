@@ -13,7 +13,11 @@ import {
   MatButtonModule,
   MatFormFieldModule,
   MatSelectModule,
-  MatOptionModule
+  MatOptionModule,
+  MatToolbarModule,
+  MatSidenavModule,
+  MatNavList,
+  MatListModule
 } from '@angular/material';
 
 import { MatIconModule} from '@angular/material/icon';
@@ -35,7 +39,10 @@ import { MatIconModule} from '@angular/material/icon';
     MatSelectModule,
     MatOptionModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule
   ],
   exports: [
     MatCardModule,
