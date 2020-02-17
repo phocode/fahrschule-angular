@@ -1,4 +1,5 @@
 # FahrschuleAngular
+An Angular web app that aims to help people study for a german driving license easier and more efficient.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
